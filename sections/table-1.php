@@ -10,11 +10,11 @@
 			<tbody>
 				<tr>
 					<th>Plan Level</th>
-					<th><a href="#">Carrier 1</a></th>
-					<th><a href="#">Carrier 2</a></th>
-					<th><a href="#">Carrier 3</a></th>
-					<th><a href="#">Carrier 4</a></th>
-					<th><a href="#">Carrier 5</a></th>
+					<th><a href="#">Carrier</a></th>
+					<th><a href="#">Carrier</a></th>
+					<th><a href="#">Carrier</a></th>
+					<th><a href="#">Carrier</a></th>
+					<th><a href="#">Carrier</a></th>
 				</tr>
 				<tr class="plan-bronze">
 					<td class="levelName">Bronze</td>

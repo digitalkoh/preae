@@ -5,6 +5,11 @@ $(document).ready(function() {
 	$('#contactSubmit').click(function(){window.location = "?section=results";});
 	$('#changeCriteria').click(function(){window.location = "?section=home";});
 	
+	// form option
+	$("#sp-spouse").click(function(){
+		$("#spousefields").toggle();
+	});
+	
 	
 	// Responsive DIV TABLE
 	if ($('.divtable').length){ // if at least 1 divtable is on page
@@ -72,7 +77,36 @@ $(document).ready(function() {
 	// Responsive DIV TABLE
 	
 	
-	$(".fancybox").fancybox();
+	// Append Level Description Lightbox call to tags
+	if($(".tag a").length){
+		$(".tag a").addClass("fancybox");
+		
+		var tags = $(".tag a");
+		
+		$.each(tags, function(i){
+			var txt = $(this).html();  // extract existing text
+			$(this).attr("href", "#leveldesc-" + txt); // rewrite href, append original text at end
+		});
+	};
+	
+	
+	
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+	
+	$(".fancybox").fancybox({
+		maxWidth	: 600,
+		maxHeight	: 500
+	});
 	$(".fancybox-media").fancybox({
 		openEffect  : 'none',
 		closeEffect : 'none',

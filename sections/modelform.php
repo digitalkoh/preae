@@ -13,15 +13,20 @@
 					<label for="status">Status<span class="req">*</span></label>
 					<select id="status" name="status">
 						<option value="">Select</option>
-						<option value="One">One</option>
-						<option value="Two">Two</option>
+						<option value="1">Active Employee</option>
+						<option value="2">COBRA</option>
+						<option value="3">Retired Employee</option>
+						<option value="4">Full Time Employee</option>
+						<option value="5">Part Time Employee</option>
 					</select>
 					
 					<label for="coverage">Coverage Level<span class="req">*</span></label>
 					<select id="coverage" name="coverage">
 						<option value="">Select</option>
-						<option value="One">One</option>
-						<option value="Two">Two</option>
+						<option value="1">Employee Only</option>
+						<option value="2">Employee + Spouse</option>
+						<option value="3">Employee + Children</option>
+						<option value="4">Employee + Family</option>
 					</select>
 					
 					<label for="zipcode">Home Zip Code<span class="req">*</span></label>
@@ -36,12 +41,17 @@
 				</fieldset>
 				
 				<fieldset id="spousefields" class="hide">
-					<label for="sp-status">Status</label>
-					<input type="text" id="sp-status" name="sp-status">
-					<label for="sp-coverage">Coverage Level</label>
-					<input type="text" id="sp-coverage" name="sp-coverage">
-					<label for="sp-zipcode">Home Zip Code</label>
-					<input type="text" placeholder="Type in your home zip code" id="sp-zipcode" name="sp-zipcode">
+					<label for="sp-contribution">Annual Employee Contribution</label>
+					<input type="text" id="sp-contribution" name="sp-contribution">
+					
+					<label for="sp-hsa">Annual HSA Employer Contribution</label>
+					<input type="text" id="sp-hsa" name="sp-hsa">
+					
+					<label for="sp-deductible">Annual Deductible</label>
+					<input type="text" id="sp-deductible" name="sp-deductible">
+					
+					<label for="sp-oopmax">Annual Out-of-Pocket Maximum</label>
+					<input type="text" id="sp-oopmax" name="sp-oopmax">
 				</fieldset>
 				
 				

@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup{display: block}
+
+html{font-size: 100%}
+body{font-family:Arial, Helvetica; background:#fff}
+ol, ul{list-style: none}
+h1, h2, h3{padding:12px 0; line-height: 1.1em; font-weight:normal}
+h1{font-size:48px;}
+h2{font-size:23px}
+h3{font-size:18px}
+a{text-decoration:none; color:#2490e3}
+a:hover, a:active{text-decoration:none; outline:0; color:#63c7fb}
+input, select{font-size:1em;}
+table{border-collapse:collapse; border-spacing:0}
+input{background-color:#fff; border:1px solid #ccc; margin-bottom:22px; padding:8px; height:24px; width:95%;}
+select{background-color:#f8f8f8; border:1px solid #ccc; margin-bottom:22px; padding:8px; height:44px; width:98%}
+
+#wrapper{width:100%}
+header{position:relative; z-index:999999;}
+header .header-wrapper{background-color:#fff; height:auto; width:100%}
+#logo{float:left;}
+#logo a{display:block}
+h1#logo{font-size:0}
+#clientlogo{position:absolute; top:40%; right:22px}
+
+/* General section shared styles */
+section{padding:0px; position:relative; clear:both; float:none;}
+.container{max-width:1240px; padding:0 22px; position:relative; margin:0 auto; z-index:100;}
+
+section.intro{background-color:#1974b9;} /* 186097 */
+
+section.intro #dates{position:relative; width:660px; margin:0 auto;}
+section.intro #dates .datebox{width:50%; float:left; background:#000;}
+section.intro #dates #startdate.datebox{background:#353535;}
+section.intro #dates .datebox p{text-align:center; color:#fff; font-size:1.2em; padding:14px 28px 0 28px;}
+section.intro #dates .datebox p.lg{text-align:center; color:#f00; font-size:2.3em; padding-top:0; padding-bottom:14px;}
+
+section.intro #dates2{position:relative; width:480px; margin:0 auto;}
+section.intro #dates2 .datebox{background:#333;}
+section.intro #dates2 .datebox p{text-align:center; color:#fff; font-size:1.3em; padding:10px 0 0 0;}
+section.intro #dates2 .datebox p.lg{text-align:center; color:#f00; font-size:2.1em; padding-top:0; padding-bottom:8px;}
+
+
+section.intro .introtext{margin:auto; width:70%; color:#fff;}
+section.intro .introtext.results{width:100%; padding-bottom:8px;}
+section.intro .introtext h1{font-size:50px; padding:0; margin:34px 0 0 0;}
+section.intro .introtext p{font-size:1.2em; padding:34px 0 38px 0;}
+
+section.checkout{background-color:#eee;}
+section.lgcaret{background-color:#fff;}
+section.lgcaret .container .caretcenter{position:relative; width:240px; margin:auto;}
+
+section.checkout .caret{
+    margin-bottom:0px;
+    border-left: 20px solid #eee;
+    border-right: 20px solid #eee; 
+    border-top: 20px solid #1974b9;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+    margin-right: 0;
+    margin-left: 18px;
+}
+section.lgcaret .caret-lg{
+    margin-bottom:0;
+    border-left: 120px solid #fff;
+    border-right: 120px solid #fff; 
+    border-top: 35px solid #eee;
+    content: "";
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+section .container ul.box-gray-33 li{float:left; width:33.33%; height:auto;}
+section .container ul.box-gray-33 li .inner{padding:4px 33px 18px 33px;}
+section .container ul.box-gray-33 li h2{font-weight:bold}
+section .container ul.box-gray-33 li p{font-size:.9em; color:#555;}
+
+section .container ul.box-gray-50 li{float:left; width:50%; height:180px; margin-bottom:8px; overflow:hidden;}
+section .container ul.box-gray-50 li .inner{height:100%; background-color:#eee; padding:22px; border-left:solid 4px #fff; border-right:solid 4px #fff; border-right:solid 4px #fff;}
+section .container ul.box-gray-50 li h2{padding:0 0 12px 90px;}
+section .container ul.box-gray-50 li p{padding-left:90px;}
+
+section .container .box-gray-100 .inner{padding:12px 0 18px 0;}
+section .container .box-gray-100 .inner h2{font-weight:bold}
+section .container .box-gray-100 .inner p{font-size:1em; padding-bottom:12px;  color:#555;}
+
+section .container .box-gray-100.highlight li{background-color:#f7f2d1;}
+section .container .box-gray-100.highlight .inner{height:auto; padding:4px 33px 18px 33px;}
+section .container .box-gray-100.highlight.notice li{background-color:#ffba00;}
+section .container .box-gray-100.highlight.notice li p{color:#000;}
+
+#contact-form{width:55%; position:relative; margin:auto;}
+#contact-form fieldset{margin-bottom:24px;}
+#contact-form label{display:block; padding:0 0 3px 0;}
+.req{color: #c00;}
+
+#contact-form .btnContainer{padding:0 0 28px 0}
+input[type="checkbox"]{width:20px; margin-top:-2px; float:left;}
+label[for="sp-spouse"]{margin-left:34px; width:90%}
+.caption{color:#c00}
+
+section.message-bottom{background-color:#1974b9;}
+section.message-bottom .container{color:#fff;}
+section.message-bottom .container div{float:left; padding:24px 0;}
+section.message-bottom .container #mbA{padding:28px 0; width:32%; font-size:1.8em; background:transparent url('../img/ae_rarrow.png') 80% 50% no-repeat;}
+section.message-bottom .container #mbB{width:68%; font-size:1em;}
+
+section.modelresult{margin-bottom:54px;}
+.modelerPlanDesc .box-gray-33{background-color:#d6eaf8;}
+
+#contact-form.login{width:400px; padding:55px 0 120px 0; margin:auto;}
+#contact-form.login h2{color:#fff;}
+#contact-form.login fieldset{margin:0}
+#contact-form.login .blueBtn{border:solid 1px #80c1f2;}
+
+/* Back to Top */
+.go-top {position:fixed;bottom:2em;right:2em;text-decoration:none;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+	border: none;
+	z-index: 999999;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.go-top:hover{color:#fff; background-color:rgba(0, 0, 0, 0.6); border: none;}
+
+footer{background:#f9f9f9; padding:24px 0 80px 0; font-size:13px; color:#555;}
+footer strong{font-weight:bold;}
+footer #devby{float:left;}
+footer #ftlinks{float:right;}
+footer #copyright{float:right; margin-top:12px;}
+footer ul li{display:inline; margin-left:12px;}
+
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.hide{display:none;}
+.clear{clear:both;}
+.clearfix{display: inline-block;}
+.container.clearfix{display: block;}
+p.smalltxt{font-size:.9em !important;}
+
+/* ==================== blue bt ------------------- */
+.blueBtn {
+	background-color: #137dcf;
+	background-image: -webkit-linear-gradient(top, rgba(41,147,228,1) 0%,rgba(8,96,163,1) 100%);
+	background-image:    -moz-linear-gradient(top, rgba(41,147,228,1) 0%,rgba(8,96,163,1) 100%);
+	background-image:     -ms-linear-gradient(top, rgba(41,147,228,1) 0%,rgba(8,96,163,1) 100%);
+	background-image:      -o-linear-gradient(top, rgba(41,147,228,1) 0%,rgba(8,96,163,1) 100%);
+	background-image:         linear-gradient(top, rgba(41,147,228,1) 0%,rgba(8,96,163,1) 100%);
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 19px 30px 30px 30px;
+	display: inline;
+	line-height:.7em;
+	/* 
+-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+ */
+	border: solid 0 rgba(8,96,163,1);
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+	width:auto;
+}
+.blueBtn:hover {
+   background-image: -webkit-linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
+   background-image:    -moz-linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
+   background-image:     -ms-linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
+   background-image:      -o-linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
+   background-image:         linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
+}
+/* ==================== / blue bt ------------------- */
+
+/* table */
+table{width:100%; margin:12px 0 0 0;}
+table thead th{font-size:1.5em; font-weight:bold; color:#000; padding:0 0 4px 0; background-color:#fff;}
+table th, table td{padding:14px 8px; background-color:#eee; border-bottom:solid 4px #fff;}
+table th{color:#fff; background-color:#000; padding:14px 8px; }
+table th a{color:#63c7fb; text-decoration:underline}
+table th{text-align:left; font-weight:bold;}
+table td .caption{color:#777; display:block; font-size:80%; font-weight:normal; padding-top:4px; }
+table .levelName{font-weight:bold;}
+
+/* 
+table#plan-table-2 td{font-size:.9em;}
+table#plan-table-2 th p{font-weight:normal; font-size:.7em; color:#ccc;}
+table#plan-table-2 td.topic{font-weight:bold;}
+table#plan-table-2 td.deductible .label{display:block; font-size:.8em; font-weight:bold;}
+table#plan-table-2 td.deductible .value{display:block; padding-bottom:12px;}
+ */
+
+/* Responsive DIV TABLE */
+.divtable{float:left; width:100%; margin:0;}
+.divtable h3{font-size:1.5em; font-weight:bold;}
+.divtable .trow{clear:both; width:100%; float:left; background-color:#eee; border-bottom:solid 4px #fff;}
+.divtable .trow.head{display:none; background:#000; color:#fff; font-weight:bold;}
+.divtable .trow.head .tcell{height:auto; padding:14px 8px;}
+.divtable .trow.head p{font-weight:normal; font-size:.8em;}
+.divtable .trow .tcell{font-size:.9em; float:left; padding:14px 8px;}
+.divtable .qrow{clear:both; width:100%; background-color:#eee;}
+.divtable .qrow .qlabel{font-weight:bold; font-size:1.2em; padding:14px 8px;}
+.divtable .qrow .qlabel .caption{display:block; font-size:80%; color:#777; font-weight:normal;}
+.divtable .trow .tcell .tag{font-weight:bold; font-size:1.1em;}
+.divtable .trow .tcell .label{font-weight:bold}
+.divtable .trow .tcell .value{padding-bottom:12px;}
+.divtable .trow .tcell.nowrap{white-space:nowrap;}
+
+/* 
+	IE7 workaround 
+	Hide <span> once added to the dom
+*/
+.divtable .tcell span{display:none;}
+
+
+/* Form Feedback */
+#errors, #success { display: none;}
+	#errors { background: #ff5858; border: 1px solid #eb2f2f; padding: 10px; width: 90%; margin-bottom: 10px; }
+	#success { background: #8be961; padding: 10px; width: 90%; margin-bottom: 10px; border: 1px solid #2d7d09; color: #2d7d09; font-weight: 700;}
+
+/* ----------- IE8 Styles --------------------*/
+.ie8 .clueBtn{color: #fff !important; border-bottom: none;}
+.ie8 .go-top{background: #01232d;}
+
+
+@media only screen and (max-width: 1140px) {
+	section.intro #dates2{width:480px;}
+	section.intro #dates2 .datebox p{font-size:1.3em; padding:10px 0 0 0;}
+	section.intro #dates2 .datebox p.lg{font-size:2.1em; padding-top:0; padding-bottom:8px;}
+	
+	section.intro .introtext{width:92%;}
+	section.intro .introtext h1{font-size:40px; padding:0; margin-top:24px;}
+	section.intro .introtext p{font-size:1.2em; padding:24px 0 32px 0;}
+	
+	section.message-bottom .container #mbA{padding:34px 0; width:35%; font-size:1.4em;}
+	section.message-bottom .container #mbB{width:65%; font-size:.9em;}
+}
+
+@media screen and (max-width: 980px) and (min-width: 690px) {
+	section .container ul.box-gray-33 li h2{font-size:1.2em;}
+}
+
+@media screen and (max-width: 780px) {
+	/* Responsive DIV TABLE */
+	.divtable{float:none;}
+	.divtable .trow{width:100%; float:none; border-bottom:solid 3px #fff;}
+	.divtable .trow .tcell{position:relative; float:none; border-bottom:dotted 1px #ccc; width:auto;}
+	.divtable .trow.head{position: absolute; top: -9999px; left: -9999px;}
+	.divtable .trow .tcell.last{border:0;}
+	.divtable .trow.altColor0{background-color:#fff;}
+	.divtable .trow.altColor1{background-color:#fff;}
+	
+	/* :before not IE7 compatible
+	.divtable .tcell:before {
+	position: absolute;
+	top: 5px;
+	left: 2px;
+	width: 45%;
+	padding-right: 12px;
+	white-space: nowrap;
+	text-align:left;
+	font-weight: bold;
+	content: attr(data-title);
+	}
+	*/
+	
+	/* Using <span> in place of :before for IE7 workaround. */
+	.divtable .tcell span{position:absolute;top:5px;left:2px;display:block;width:45%;padding-right:12px;white-space:nowrap;text-align:left;font-weight:bold;}
+	/* #################### Responsive TABLE #################### */
+}
+
+@media only screen and (max-width: 690px) {
+	section.intro #dates2{width:400px;;}
+	section.intro #dates2 .datebox p{font-size:1em; padding:10px 0 0 0;}
+	section.intro #dates2 .datebox p.lg{font-size:1.6em; padding-bottom:4px;}
+	
+	section.intro .introtext{width:100%;}
+	section.intro .introtext h1{font-size:35px;}
+	section.intro .introtext p{font-size:1em; padding:24px 0 28px 0;}
+	
+	section .container ul.box-gray-33 li{float:none; width:100%; border-bottom:solid 3px #fff}
+	section .container ul.box-gray-33 li.last{border:0}
+	section .container ul.box-gray-33 li .inner{padding:8px 0 28px 0;}
+	section .container ul.box-gray-33 li p{font-size:.9em;}
+	section.checkout .caret{display:none;}
+	
+	section .container .box-gray-100.highlight.notice li .inner,
+	section .container.modelerPlanDesc ul.box-gray-33 li .inner,
+	section .container.modelerPlanDesc ul.box-gray-100 li .inner{padding:8px 12px 28px 12px;}
+	
+	#contact-form{width:90%;}
+	
+	section.message-bottom .container div{float:none; padding:0;}
+	section.message-bottom .container #mbA{padding:8px 0; width:100%; font-size:1.6em; background:none;}
+	section.message-bottom .container #mbB{width:100%; font-size:.9em; padding-bottom:14px;}
+	
+	#contact-form.login{width:300px;}
+	#contact-form.login h2{font-size:1.3em;}
+	
+	table thead th{font-size:1.1em;}
+	table th, table td{font-size:.9em;}
+	
+	footer{padding:24px 0 80px 0;}
+	footer strong{font-weight:bold;}
+	footer #devby{float:none;}
+	footer #ftlinks{float:none;}
+	footer #copyright{float:none; margin-top:12px;}
+	footer ul li{display:block; margin:4px 0 0 0;}
+
+}
+
+@media only screen and (max-width: 479px ) {
+	#logo img{width:70%;}
+	#clientlogo img{width:80%;}
+	
+	section.intro #dates2{width:280px;}
+	section.intro #dates2 .datebox p.lg{font-size:1.2em;}
+	
+	section.intro .introtext h1{font-size:28px;}
+	section.intro .introtext p{font-size:.9em; padding:22px 0;}
+	
+	#contact-form.login{width:280px;}
+	#contact-form.login h2{font-size:1.1em;}
+	
+	section .container .box-gray-100 .inner p{font-size:.9em;}
+	section .container .box-gray-100 .inner h2,
+	section .container ul.box-gray-33 li h2{font-size:1.2em;}
+	section.disclaimer .container .box-gray-100 .inner p.smalltxt{font-size:.8em !important;}
+	
+	table th, table td{font-size:.7em; padding:14px 8px 14px 2px; border-bottom:solid 2px #fff;}
+	table th{font-weight:normal;}
+	table .levelName{font-size:.8em;}
+}

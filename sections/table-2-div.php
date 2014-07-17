@@ -4,7 +4,7 @@
 		
 		
 		<div class="divtable" var-offset="25">
-			<h3>Medical Plan Summary (In Network)</h3>
+			<h3>Medical Plan Summary <span>(In Network)</span></h3>
 			<div class="trow head">
 				<div class="tcell"></div>
 				<div class="tcell"></div>
@@ -201,7 +201,7 @@
 			</div> <!-- /.trow -->
 				
 			<div class="qrow">
-				<div class="qlabel">Generic Prescriptions <span class="caption">In Network</span><span class="caption">(30-day supply)</span></div>
+				<div class="qlabel">Generic Prescriptions <span class="caption">In Network (30-day supply)</span></div>
 			</div>
 			<div class="clear"></div>
 			<div class="trow">
@@ -213,7 +213,7 @@
 			</div> <!-- /.trow -->
 
 			<div class="qrow">
-				<div class="qlabel">Preferred Brand Name Prescriptions<span class="caption">In Network</span><span class="caption">(30-day supply)</span></div>
+				<div class="qlabel">Preferred Brand Name Prescriptions<span class="caption">In Network (30-day supply)</span></div>
 			</div>
 			<div class="clear"></div>
 			<div class="trow">
@@ -225,7 +225,7 @@
 			</div> <!-- /.trow -->
 			
 			<div class="qrow">
-				<div class="qlabel">Non-preferred Brand Name <span class="caption">In Network</span><span class="caption">(30-day supply)</span></div>
+				<div class="qlabel">Non-preferred Brand Name <span class="caption">In Network (30-day supply)</span></div>
 			</div>
 			<div class="clear"></div>
 			<div class="trow">
@@ -237,7 +237,7 @@
 			</div> <!-- /.trow -->
 			
 			<div class="qrow">
-				<div class="qlabel">Mail Order <span class="caption">In Network</span><span class="caption">(90-day supply)</span></div>
+				<div class="qlabel">Mail Order <span class="caption">In Network (90-day supply)</span></div>
 			</div>
 			<div class="clear"></div>
 			<div class="trow">

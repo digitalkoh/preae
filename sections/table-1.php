@@ -1,10 +1,11 @@
 <section class="modelresult">
 	<div class="container clearfix">
 
+
 		<table id="plan-table-1">
 			<thead>
 				<tr>
-					<th colspan="6">Illinois (60611); Active; Employee Only; Weekly Rate</th>
+					<th colspan="6">Monthly Rate <span>Illinois (60611); Active; Employee Only</span></th>
 				</tr>
 			</thead>
 			<tbody>

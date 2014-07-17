@@ -51,6 +51,15 @@
 			
 		</div><!-- /.introtext-->
 		
+		<?php
+			} else if($_GET["section"] == "resource") {
+		?>
+		
+		<div class="introtext results">
+			<h1>Medical Carrier Resources</h1>
+			
+		</div><!-- /.introtext-->
+		
 		<?php					
 			} else {
 		?>

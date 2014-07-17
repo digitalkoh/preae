@@ -142,11 +142,12 @@ footer ul li{display:inline; margin-left:12px;}
 
 /* table */
 table{width:100%; margin:12px 0 0 0;}
-table thead th{font-size:1.5em; font-weight:bold; color:#000; padding:0 0 4px 0; background-color:#fff;}
+table thead th{font-size:1.2em; font-weight:bold; color:#fff; padding:8px 14px; background-color:#000; border:0;}
+table thead th span{font-weight:normal; color:#ccc; font-size:80%; display:block;}
 table th, table td{padding:14px 8px; background-color:#eee; border-bottom:solid 4px #fff;}
-table th{color:#fff; background-color:#000; padding:14px 8px; }
-table th a{color:#63c7fb; text-decoration:none;}
-table th a:hover{color:#e4f6ff;}
+table th{color:#000; background-color:#ddd; padding:14px 8px; }
+table th a{color:#2490e3; text-decoration:none;}
+table th a:hover{color:#41a7f5;}
 table th{text-align:left; font-weight:bold;}
 table td .caption{color:#777; display:block; font-size:80%; font-weight:normal; padding-top:4px; }
 table .levelName{font-weight:bold;}
@@ -161,13 +162,15 @@ table#plan-table-2 td.deductible .value{display:block; padding-bottom:12px;}
 
 /* Responsive DIV TABLE */
 .divtable{float:left; width:100%; margin:0;}
-.divtable h3{font-size:1.5em; font-weight:bold;}
+/* .divtable h3{font-size:1.5em; font-weight:bold;} */
+.divtable h3{font-size:1.2em; color:#fff; background:#000; font-weight:bold; padding:8px 14px;}
+.divtable h3 span{font-weight:normal; color:#ccc; font-size:80%; display:block;}
 .divtable .trow{clear:both; width:100%; float:left; background-color:#eee; border-bottom:solid 4px #fff;}
 .divtable .trow.head{display:none; background:#000; color:#fff; font-weight:bold;}
 .divtable .trow.head .tcell{height:auto; padding:14px 8px;}
 .divtable .trow.head p{font-weight:normal; font-size:.8em;}
 .divtable .trow .tcell{font-size:.9em; float:left; padding:14px 8px;}
-.divtable .qrow{clear:both; width:100%; background-color:#eee;}
+.divtable .qrow{clear:both; width:100%; background-color:#e5e5e5;}
 .divtable .qrow .qlabel{font-weight:bold; font-size:1.2em; padding:14px 8px;}
 .divtable .qrow .qlabel .caption{display:block; font-size:80%; color:#777; font-weight:normal;}
 .divtable .trow .tcell .tag{font-weight:bold; font-size:1.1em;}
@@ -180,6 +183,22 @@ table#plan-table-2 td.deductible .value{display:block; padding-bottom:12px;}
 	Hide <span> once added to the dom
 */
 .divtable .tcell span{display:none;}
+
+/* Resources List */
+.list{float:left; width:100%; margin:0;}
+.list h2{font-weight:bold; padding:0;}
+.list h2 a{color:#000;}
+.list h2 a:hover{color:#63c7fb;}
+.list .row{clear:both; width:100%; float:left; padding:24px 0; border-bottom:solid 1px #ccc;}
+.list .row .cell{float:left;}
+.list .row .cell.head{width:35%}
+.list .row .cell.head .url{font-size:90%}
+.list .row .cell.content{width:65%; font-size:90%;}
+.list .row .cell.content p{padding-bottom:24px;}
+
+.list .row .row{padding:0 0 4px 0; border:0}
+.list .row .row .head{width:20%; color:#000; text-transform:none; font-weight:bold; letter-spacing:-.5px;}
+.list .row .row .content{width:80%}
 
 
 /* Form Feedback */
@@ -236,6 +255,20 @@ table#plan-table-2 td.deductible .value{display:block; padding-bottom:12px;}
 	/* Using <span> in place of :before for IE7 workaround. */
 	.divtable .tcell span{position:absolute;top:5px;left:2px;display:block;width:45%;padding-right:12px;white-space:nowrap;text-align:left;font-weight:bold;}
 	/* #################### Responsive TABLE #################### */
+	
+	/* Resources List */
+	.list{float:none;}
+	.list h2{font-size:1.4em;}
+	.list .row{clear:both; width:100%; float:none; padding:24px 0; border-bottom:solid 1px #ccc;}
+	.list .row .cell{float:none;}
+	.list .row .cell.head{width:100%;}
+	.list .row .cell.content{width:100%; font-size:90%;}
+	.list .row .cell.content p{padding-top:12px; padding-bottom:24px;}
+	
+	.list .row .row{padding:0 0 6px 0; border:0}
+	.list .row .row .head{width:100%;}
+	.list .row .row .content{width:100%}
+
 }
 
 @media only screen and (max-width: 690px) {

@@ -5,17 +5,17 @@
 		<table id="plan-table-1">
 			<thead>
 				<tr>
-					<th colspan="6">Monthly Rate <span>Illinois (60611); Active; Employee Only</span></th>
+					<th colspan="6">Weekly Rate <span>Illinois (60611); Active; Employee Only</span></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<th>Plan Level</th>
-					<th><a href="#">Carrier</a></th>
-					<th><a href="#">Carrier</a></th>
-					<th><a href="#">Carrier</a></th>
-					<th><a href="#">Carrier</a></th>
-					<th><a href="#">Carrier</a></th>
+					<th><a href="?section=resource#Health Net">Health Net</a></th>
+					<th><a href="?section=resource#Dean Care">Dean Care</a></th>
+					<th><a href="?section=resource#BCBS of Illinois">BCBS</a></th>
+					<th><a href="?section=resource#Anthem Blue Cross">Blue Cross</a></th>
+					<th><a href="?section=resource#UnitedHealthcare">UnitedHealthCare</a></th>
 				</tr>
 				<tr class="plan-bronze">
 					<td class="levelName">Bronze</td>
@@ -76,6 +76,10 @@
 			</tbody>
 		</table>
 		
+		<p class="smalltxt">
+			<strong>Note:</strong> If you live outside of all carriers' service areas, an out-of-area plan at the Silver or Gold level will be your only option.
+		</p>
+		<br>
 	</div>
 	
 	<div class="container modelerPlanDesc clearfix">
@@ -108,13 +112,11 @@
 				<div class="inner">
 					<h2>Do you live in California?</h2>
 					<p>Your plans might be a little different, depending on the insurance carrier you choose. </p>
-					<p class="">
-						<strong>Note:</strong> If you live outside of all carriers' service areas, an out-of-area plan at the Silver or Gold level will be your only option.
-					</p>
 				</div>
 			</li>
 		</ul>
 
+		
 	</div>
 </section>
 

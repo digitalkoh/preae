@@ -72,7 +72,7 @@ section.modelresult{margin-bottom:54px;}
 
 #contact-form{width:55%; position:relative; margin:auto;}
 #contact-form fieldset{margin-bottom:24px;}
-#contact-form label{display:block; padding:0 0 3px 0;}
+#contact-form label{display:block; font-weight:bold; padding:0 0 3px 0;}
 
 #contact-form.login{width:400px; padding:55px 0 120px 0; margin:auto;}
 #contact-form.login h2{color:#fff;}
@@ -90,9 +90,11 @@ label[for="sp-spouse"]{margin-left:34px; width:90%}
 .clear{clear:both;}
 .clearfix{display: inline-block;}
 .container.clearfix{display: block;}
-p.smalltxt{font-size:.9em !important;}
+.smalltxt{font-size:.9em !important;}
 .lbcontent h2{color:#1974b9;}
 .lbcontent p{font-size:.9em;}
+.nobold{font-weight:normal !important;}
+a.backlink{display:inline-block; margin:12px 0;}
 
 /* Back to Top */
 .go-top {position:fixed;bottom:2em;right:2em;text-decoration:none;color: #fff;background-color: rgba(0, 0, 0, 0.3);font-size: 12px;padding: 1em;display: none;border: none;z-index: 999999;-webkit-border-radius: 4px; -moz-border-radius: 4px;border-radius: 4px;}
@@ -138,6 +140,8 @@ footer ul li{display:inline; margin-left:12px;}
    background-image:      -o-linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
    background-image:         linear-gradient(top, rgba(8,96,163,1) 0%,rgba(8,96,163,1) 100%);
 }
+
+button.blueBtn{padding-bottom:21px;}
 /* ==================== / blue bt ------------------- */
 
 /* table */
@@ -151,6 +155,11 @@ table th a:hover{color:#41a7f5;}
 table th{text-align:left; font-weight:bold;}
 table td .caption{color:#777; display:block; font-size:80%; font-weight:normal; padding-top:4px; }
 table .levelName{font-weight:bold;}
+
+table.cost-table .levelname{font-weight:bold;}
+table.cost-table .levelname span{font-weight:normal; display:block; font-size:90%}
+
+
 
 /* 
 table#plan-table-2 td{font-size:.9em;}

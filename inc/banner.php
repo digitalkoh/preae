@@ -1,7 +1,7 @@
 <header>
 	<div class="header-wrapper">
 		<div class="container clearfix">
-			<h1 id="logo"><a href="?section=home" title="Health Plan Identifier"><img src="img/ae_logo.png" alt="Health Plan Identifier"></a></h1>
+			<h1 id="logo"><a href="?section=home" title="Health Plan Identifier"><img src="img/ah_logo.png" alt="Health Plan Identifier"></a></h1>
 			<div id="clientlogo"><img src="img/ae_client_logo.png" alt="Premier"></div>
 			<nav id="main-nav"></nav>
 			
@@ -57,6 +57,15 @@
 		
 		<div class="introtext results">
 			<h1>Medical Carrier Resources</h1>
+			
+		</div><!-- /.introtext-->
+		
+		<?php
+			} else if($_GET["section"] == "summary") {
+		?>
+		
+		<div class="introtext results">
+			<h1>Medical Cost Summary</h1>
 			
 		</div><!-- /.introtext-->
 		

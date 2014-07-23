@@ -13,7 +13,7 @@
 					Click on the name of the insurance carrier to visit their website, where you can get contact information and look up your doctors and other health care providers.
 				</p>
 				<p class="smalltxt">
-					*The rates represent your cost after [Client Name’s] credit (subsidy) is applied.
+					*The rates represent your cost after Premier's credit (subsidy) is applied.
 				</p>
 				
 				<div class="btnContainer">

@@ -1,5 +1,8 @@
 <section class="checkout">
 	<div class="container clearfix">
+	
+		<?php include 'inc/inc_backtoplanlink.php'; ?>
+		
 		<div class="box-gray-100">
 			<div class="inner">
 				<h2>To help you make your decision, check out these resources from the insurance carriers.</h2>

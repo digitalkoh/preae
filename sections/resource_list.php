@@ -7,7 +7,7 @@
 
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Aetna</a></h2>
+					<h2><a href="#" target="_blank" name="Aetna">Aetna</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -41,7 +41,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Anthem Blue Cross</a></h2>
+					<h2><a href="#" target="_blank" name="Anthem Blue Cross">Anthem Blue Cross</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -75,7 +75,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Anthem Blue Cross Blue Shield</a></h2>
+					<h2><a href="#" target="_blank" name="Anthem Blue Cross Blue Shield">Anthem Blue Cross Blue Shield</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -109,7 +109,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">BCBS of Georgia</a></h2>
+					<h2><a href="#" target="_blank" name="BCBS of Georgia">BCBS of Georgia</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -143,7 +143,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">BCBS of Illinois</a></h2>
+					<h2><a href="#" target="_blank" name="BCBS of Illinois">BCBS of Illinois</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -177,7 +177,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">BCBS of Nebraska</a></h2>
+					<h2><a href="#" target="_blank" name="BCBS of Nebraska">BCBS of Nebraska</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -211,7 +211,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">BCBS of Tennessee</a></h2>
+					<h2><a href="#" target="_blank" name="BCBS of Tennessee">BCBS of Tennessee</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -245,7 +245,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Dean Care</a></h2>
+					<h2><a href="#" target="_blank" name="Dean Care">Dean Care</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -280,7 +280,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Empire Blue Cross Blue Shield</a></h2>
+					<h2><a href="#" target="_blank" name="Empire Blue Cross Blue Shield">Empire Blue Cross Blue Shield</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -314,7 +314,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Florida Blue</a></h2>
+					<h2><a href="#" target="_blank" name="Florida Blue">Florida Blue</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -348,7 +348,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Health Net</a></h2>
+					<h2><a href="#" target="_blank" name="Health Net">Health Net</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -382,7 +382,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Independence Blue Cross</a></h2>
+					<h2><a href="#" target="_blank" name="Independence Blue Cross">Independence Blue Cross</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -416,7 +416,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">Kaiser Permanente</a></h2>
+					<h2><a href="#" target="_blank" name="Kaiser Permanente">Kaiser Permanente</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -454,7 +454,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">UnitedHealthcare</a></h2>
+					<h2><a href="#" target="_blank" name="UnitedHealthcare">UnitedHealthcare</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -488,7 +488,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">UnitedHealthcare National and Northern CA</a></h2>
+					<h2><a href="#" target="_blank" name="UnitedHealthcare National and Northern CA">UnitedHealthcare National and Northern CA</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -522,7 +522,7 @@
 			
 			<div class="row">
 				<div class="cell head">
-					<h2><a href="#" target="_blank">UnitedHealthcare of Southern CA</a></h2>
+					<h2><a href="#" target="_blank" name="UnitedHealthcare of Southern CA">UnitedHealthcare of Southern CA</a></h2>
 					<div class="url"><a href="#" target="_blank">Visit Website</a></div>
 				</div>
 				<div class="cell content">
@@ -561,3 +561,15 @@
 		
 	</div><!--/.container-->
 </section>
+
+<script>
+	//Highlight selected/anchored row
+	var secLoc = window.location.hash.substring(1); //return hash+value, remove "#"
+	$("a[name='"+secLoc+"']").parent().parent().parent().css("background","#fdf7df");
+	
+	// append back button to selected roe
+	$("a[name='"+secLoc+"']").parent().parent().next().append('<button class="blueBtn backtoplan">Back to Medical Plan Pricing</button>');
+	
+	$("a").css("outline","none");
+	
+</script>

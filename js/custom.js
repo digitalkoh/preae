@@ -4,6 +4,10 @@ $(document).ready(function() {
 	$('#loginSubmit').click(function(){window.location = "?section=home";});
 	$('#contactSubmit').click(function(){window.location = "?section=results";});
 	$('#changeCriteria').click(function(){window.location = "?section=home";});
+	$('#gotoSummary').click(function(){window.location = "?section=summary";});
+	$('#gotoResources').click(function(){window.location = "?section=resource";});
+	$('.backtoplan').click(function(){window.location = "?section=results";});
+	
 	
 	// form option
 	$("#sp-spouse").click(function(){
@@ -70,11 +74,9 @@ $(document).ready(function() {
 			
 			// alternating row color
 			$('.trow',tbl).filter(":even").addClass('altColor1').end().filter(":odd").addClass('altColor0');
-			
-			$('#portfolioCaption').next().css({'margin-top':'0', 'padding':'0'});
 		});
 	}
-	// Responsive DIV TABLE
+	// /Responsive DIV TABLE
 	
 	
 	// Append Level Description Lightbox call to tags
@@ -88,8 +90,6 @@ $(document).ready(function() {
 			$(this).attr("href", "#leveldesc-" + txt); // rewrite href, append original text at end
 		});
 	};
-	
-	
 	
 	$(".various").fancybox({
 		maxWidth	: 800,

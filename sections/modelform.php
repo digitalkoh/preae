@@ -10,7 +10,7 @@
 			<!-- <p id="success" class="">Thank you, your message has been sent.</p> -->
 			<form action="" method="post">
 				<fieldset>
-					<label for="status">Status<span class="req">*</span></label>
+					<label for="status">Status <span class="req">*</span></label>
 					<select id="status" name="status">
 						<option value="">Select</option>
 						<option value="1">Active Employee</option>
@@ -20,7 +20,7 @@
 						<option value="5">Part Time Employee</option>
 					</select>
 					
-					<label for="coverage">Coverage Level<span class="req">*</span></label>
+					<label for="coverage">Coverage Level <span class="req">*</span></label>
 					<select id="coverage" name="coverage">
 						<option value="">Select</option>
 						<option value="1">Employee Only</option>
@@ -29,14 +29,14 @@
 						<option value="4">Employee + Family</option>
 					</select>
 					
-					<label for="zipcode">Home Zip Code<span class="req">*</span></label>
+					<label for="zipcode">Home Zip Code <span class="req">*</span></label>
 					<input type="text" placeholder="Type in your home zip code" id="zipcode" name="zipcode">
 					
 					<input type="checkbox" id="sp-spouse" name="sp-spouse">
-					<label for="sp-spouse">
+					<label for="sp-spouse" class="nobold">
 						Include your spouse’s or partner’s plan in your comparison analysis 
 						by entering his/her plan cost and key coverage factors. 
-						<span class="caption">(Optional)</span>
+						<span class="caption smalltxt">(Optional)</span>
 					</label>
 				</fieldset>
 				
@@ -54,10 +54,15 @@
 					<input type="text" id="sp-oopmax" name="sp-oopmax">
 				</fieldset>
 				
-				
 				<div class="btnContainer">
-					<input id="contactSubmit" type="submit" name="submit" class="blueBtn" value="Window Shop Now">
+					<input id="contactSubmit" type="submit" name="submit" class="blueBtn" value="Compare Costs">
+					<br><span class="req">*</span> <span class="smalltxt">Required</span>
 				</div>
+				
+				<div>
+					
+				</div>
+				
 			</form>
 		</div>
 		

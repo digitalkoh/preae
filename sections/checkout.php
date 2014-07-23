@@ -5,8 +5,8 @@
 			<li>
 				<span class="caret"></span>
 				<div class="inner">
-					<h2>Start window shopping.</h2>
-					<p>Select your status and coverage level, then enter your zip code and click on the red WINDOW SHOP NOW button to get a look at the medical insurance companies and plans that will be available where you live.</p>
+					<h2>Start shopping.</h2>
+					<p>Select your status and coverage level, then enter your zip code and click on the  Compare Costs button to get a look at the medical insurance companies and plans that will be available where you live.</p>
 				</div>
 			</li>
 				

@@ -1,12 +1,16 @@
 $(document).ready(function() {
 	
-	//links
+	// ------------ TEMP form links - remove for production !!!! ---------------------------------------
 	$('#loginSubmit').click(function(){window.location = "?section=home";});
 	$('#contactSubmit').click(function(){window.location = "?section=results";});
+	// -------------------------------------------------------------------------------------------------
+	
+	// navigation links
 	$('#changeCriteria').click(function(){window.location = "?section=home";});
 	$('#gotoSummary').click(function(){window.location = "?section=summary";});
 	$('#gotoResources').click(function(){window.location = "?section=resource";});
 	$('.backtoplan').click(function(){window.location = "?section=results";});
+	$('.backto').click(function(){window.history.back()});
 	
 	
 	// form option
@@ -79,7 +83,20 @@ $(document).ready(function() {
 	// /Responsive DIV TABLE
 	
 	
-	// Append Level Description Lightbox call to tags
+	// ATTACH LIGHTBOX EVENT =========================================================================
+	// Append input label description Lightbox call
+	if($(".moreInfoIcon").length){
+		$(".moreInfoIcon").addClass("fancybox");
+		
+		var infoIcons = $(".moreInfoIcon");
+		
+		$.each(infoIcons, function(i){
+			var txt = $(this).parent().attr("for");  // extract 'for' value
+			$(this).attr("href", "#inputdesc-" + txt); // rewrite href, append original text at end
+		});
+	};
+	
+	// Append Level Description Lightbox call
 	if($(".tag a").length){
 		$(".tag a").addClass("fancybox");
 		

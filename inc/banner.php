@@ -11,26 +11,21 @@
 
 <div class="clear"></div>
 
+<?php 
+	if ($_GET["section"] == "results" || $_GET["section"] == "summary" || $_GET["section"] == "resource"){
+		include 'inc/nav.php';
+	}
+?>
+
 <section class="intro">
 	<div class="container clear">
-	
-		<div id="dates" class="hide">
-			<div class="datebox" id="startdate">
-				<p>Open Enrollment starts</p>
-				<p class="lg">November 4</p>
-			</div>
-			<div class="datebox" id="enddate">
-				<p>Open Enrollment ends</p>
-				<p class="lg">November 22</p>
-			</div>
-		</div><!-- /#dates-->
 		
-		<div id="dates2">
-			<div class="datebox" id="startdate">
+		<div id="dates">
+			<div class="datebox">
 				<p>Open Enrollment</p>
 				<p class="lg">November 4 ~ November 22</p>
 			</div>
-		</div><!-- /#dates2-->
+		</div><!-- /#dates-->
 		<div class="clear"></div>
 		
 		<?php

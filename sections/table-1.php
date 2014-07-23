@@ -57,6 +57,14 @@
 					<td>$XXXX</td>
 					<td>$XXXX</td>
 				</tr>
+				<tr class="plan-gold2">
+					<td class="levelName">Gold II</td>
+					<td>$XXXX</td>
+					<td>$XXXX</td>
+					<td>$XXXX</td>
+					<td>$XXXX</td>
+					<td>$XXXX</td>
+				</tr>
 				<tr class="plan-goldout">
 					<td class="levelName">Gold Out of Area</td>
 					<td>$XXXX</td>

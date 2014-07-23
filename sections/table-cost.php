@@ -1,20 +1,25 @@
 <section class="modelresult">
 	<div class="container clearfix">
 
-		<?php include 'inc/inc_backtoplanlink.php'; ?>
+		<?php 
+			//include 'inc/inc_backtoplanlink.php'; 
+		?>
 		
+		<h2 class="tbltitle"><a href="?section=resource#BCBS of Illinois">Blue Cross Blue Shield</a></h2>
 		<table class="cost-table">
-			<thead>
+			<!-- 
+<thead>
 				<tr>
 					<th colspan="6">Blue Cross Blue Shield</th>
 				</tr>
 			</thead>
+ -->
 			<tbody>
 				<tr>
-					<th>Plan Level</th>
+					<th class="levelname">Plan Level</th>
 					<th>Your Annual Price</th>
 					<th>Deductible</th>
-					<th>Coinsurance/Copay Maximum</th>
+					<th>Coinsurance/<br>Copay Maximum</th>
 					<th>Total</th>
 				</tr>
 				<tr>
@@ -54,19 +59,22 @@
 				</tr>
 			</tbody>
 		</table>
-
+		
+		<h2 class="tbltitle"><a href="?section=resource#Aetna">Aetna</a></h2>
 		<table class="cost-table">
-			<thead>
+			<!-- 
+<thead>
 				<tr>
 					<th colspan="6">Aetna</th>
 				</tr>
 			</thead>
+ -->
 			<tbody>
 				<tr>
-					<th>Plan Level</th>
+					<th class="levelname">Plan Level</th>
 					<th>Your Annual Price</th>
 					<th>Deductible</th>
-					<th>Coinsurance/Copay Maximum</th>
+					<th>Coinsurance/<br>Copay Maximum</th>
 					<th>Total</th>
 				</tr>
 				<tr>
@@ -107,18 +115,21 @@
 			</tbody>
 		</table>
 		
+		<h2 class="tbltitle"><a href="?section=resource#UnitedHealthcare">UnitedHealthCare</a></h2>		
 		<table class="cost-table">
-			<thead>
+			<!-- 
+<thead>
 				<tr>
 					<th colspan="6">UnitedHealthCare</th>
 				</tr>
 			</thead>
+ -->
 			<tbody>
 				<tr>
-					<th>Plan Level</th>
+					<th class="levelname">Plan Level</th>
 					<th>Your Annual Price</th>
 					<th>Deductible</th>
-					<th>Coinsurance/Copay Maximum</th>
+					<th>Coinsurance/<br>Copay Maximum</th>
 					<th>Total</th>
 				</tr>
 				<tr>

@@ -568,7 +568,7 @@
 	$("a[name='"+secLoc+"']").parent().parent().parent().css("background","#fdf7df");
 	
 	// append back button to selected roe
-	$("a[name='"+secLoc+"']").parent().parent().next().append('<button class="blueBtn backtoplan">Back to Medical Plan Pricing</button>');
+	$("a[name='"+secLoc+"']").parent().parent().next().append('<button class="blueBtn backto">Back to Previous Page</button>');
 	
 	$("a").css("outline","none");
 	

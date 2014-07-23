@@ -1,7 +1,9 @@
 <section class="checkout">
 	<div class="container clearfix">
 	
-		<?php include 'inc/inc_backtoplanlink.php'; ?>
+		<?php 
+			//include 'inc/inc_backtoplanlink.php'; 
+		?>
 		
 		<div class="box-gray-100">
 			<div class="inner">

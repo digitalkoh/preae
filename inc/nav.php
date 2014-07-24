@@ -14,12 +14,12 @@
 		
 			// Equalize nav li height
 			function equalNavHeight(){
-				var navheight = [];
+				var navheight = []; //create array to store heights
 				$("nav ul li a").each(function(){
-					navheight.push($(this).height());	
+					navheight.push($(this).height()); //push heights of li elements
 				});
-				navheight = Math.max.apply(Math, navheight)
-				$("nav ul li a").height(navheight);	
+				navheight = Math.max.apply(Math, navheight); // get max height
+				$("nav ul li a").height(navheight);	//apply to <a>
 			}
 			
 			equalNavHeight();

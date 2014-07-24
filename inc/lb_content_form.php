@@ -14,7 +14,7 @@
 </div>
 <div id="inputdesc-payfrequency" class="lbcontent hide">
 	<h2>Pay Frequency</h2>
-	<p>xxx xxx xxx xxx</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.xx</p>
 </div>
 <div id="inputdesc-sp-contribution" class="lbcontent hide">
 	<h2>Annual Employee Contribution</h2>

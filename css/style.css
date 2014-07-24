@@ -36,13 +36,13 @@ section.intro{background-color:#1974b9;} /* 186097 */
 section.intro .container{padding-top:8px;}
 section.intro #dates{position:relative; width:480px; margin:0 auto;}
 section.intro #dates .datebox{background:#333;}
-section.intro #dates .datebox p{text-align:center; color:#fff; font-size:1.3em; padding:10px 0 0 0;}
+section.intro #dates .datebox p{text-align:center; color:#fff; font-size:1.3em; padding:8px 0 0 0;}
 section.intro #dates .datebox p.lg{text-align:center; color:#f00; font-size:2.1em; padding-top:0; padding-bottom:8px;}
 
 section.intro .introtext{margin:auto; width:70%; color:#fff;}
 section.intro .introtext.results{width:100%; padding-bottom:8px;}
-section.intro .introtext h1{font-size:42px; padding:0; margin:34px 0 0 0;}
-section.intro .introtext p{font-size:1.1em; padding:34px 0 38px 0;}
+section.intro .introtext h1{font-size:40px; padding:0; margin:22px 0 0 0;}
+section.intro .introtext p{font-size:1em; letter-spacing:1px; padding:22px 0 38px 0;}
 section.checkout{background-color:#eee;}
 section.lgcaret{background-color:#fff;}
 section.lgcaret .container .caretcenter{position:relative; width:240px; margin:auto;}
@@ -227,6 +227,15 @@ table#plan-table-2 td.deductible .value{display:block; padding-bottom:12px;}
 .list .row .row .head{width:20%; color:#000; text-transform:none; font-weight:bold; letter-spacing:-.5px;}
 .list .row .row .content{width:80%}
 
+/* TEMP Chart Demo */
+#chart-temp-image{position:relative; border:solid 1px #ccc;}
+#chart-temp-image img{max-width:100%}
+#chart-temp-image img.overlay{position:absolute; top:0; left:0;}
+
+#chart-cost{margin:24px 0;}
+form#chart-cost-control{margin:12px 0;}
+form#chart-cost-control input{margin-top:-4px; margin-bottom:0;}
+form#chart-cost-control ol li{clear:both; margin-bottom:4px;}
 
 /* Form Feedback */
 #errors, #success { display: none;}

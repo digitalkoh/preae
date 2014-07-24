@@ -33,8 +33,8 @@
 		?>
 		
 		<div class="introtext">
-			<h1>It’s that time of year when you get to shop for benefits that fit you!</h1>
-			<p>Even if you think you have the right benefits, it’s always a good idea to shop around and see what may have changed. Who knows, you may find a better deal.</p>
+			<h1>It's that time of year when you get to shop for benefits that fit you!</h1>
+			<p>Even if you think you have the right benefits, it’s always a good idea to shop around and see what may have changed. Who knows, you may find a better deal. Start your decision making process and be better prepared when enrollment begins on November 4 on the Your Benefits Resources website.</p>
 		</div><!-- /.introtext-->
 		
 		<?php

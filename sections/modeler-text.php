@@ -17,7 +17,7 @@
 				</p>
 				
 				<div class="btnContainer">
-					<input id="changeCriteria" type="submit" name="submit" class="blueBtn" value="Go back to change criteria">
+					<input id="changeCriteria" type="submit" name="submit" class="blueBtn" value="Change Modeler Criteria">
 				</div>
 			</div>
 		</div><!--/.box-gray-100-->
